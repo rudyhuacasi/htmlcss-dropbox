@@ -1,0 +1,49 @@
+/*header*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.white{
+    background-color: aquamarine;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.square-between{
+    width: 30%;
+    height: 40px;
+    background-color: blue;
+}
+/*main*/
+/*square-1*/
+.lightblue{
+    background-color: rgb(112, 171, 247);
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.square-full{
+    width: 100%;
+    height: 130px;
+    background-color: brown;
+    justify-content: center;
+}
+.square-testo{
+    width: 40%;
+    height: 300px;
+    background-color: red;
+}
+.square-immagini{
+    width: 60%;
+    height: 300px;
+    background-color: purple;
+}
+/*square-2*/
