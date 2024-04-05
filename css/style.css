@@ -51,9 +51,6 @@
     display: flex;
     flex-wrap: wrap;
 }
-.square-full{
-    width: 100%;
-}
 .font-si{
     font-family: "Inconsolata", monospace;
     font-weight: 900;
@@ -61,14 +58,12 @@
 }
 .square-testo{
     width: 30%;
-    height: 300px;
 }
 .prova{
     background-color: rgb(45, 45, 233);
     padding: 10px 15px;
     text-decoration: none;
     color: white;
-    margin: 20px 0;
 }
 .jumbo{
     width: 55%;
@@ -78,7 +73,7 @@
     width: 70%;
 }
 .square-testo, .square-immagini{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .contenuto{
     margin-bottom: 35px;
@@ -88,12 +83,11 @@
 }
 .fa-arrow-down{
     font-size: 60px;
-    margin-top: 35px;
+    margin-top: 45px;
 }
 /*square-2*/
 .white-2{
-    background-color: violet;
-    height: 1000px;
+    height: 1600px;
     display: flex;
     align-items: center;
 }
@@ -103,28 +97,130 @@
     display: flex;
     flex-wrap: wrap;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-100{
+    width: 100%;
+}
+.col-33{
+    width: calc(100%/3);
+}
 .square{
-    background-color: lawngreen;
-    width: 30%;
-    height: 600px;
-    margin: 16px;
+    height: 950px;
+    border: 1px solid silver;
+}
+.business{
+    margin: 10px;
+}
+.misura{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.rad{
+    margin: 5px;
+}
+.margin-15{
+    padding: 40px;
+}
+.align{
+    text-align: center;
+    padding: 10px;
+}
+.piano{
+    font-size: 30px;
+}
+.pad{
+    padding: 10px 0;
+}
+.fa-ul {
+    list-style-type: none;
+    margin-left: var(--fa-li-margin, 1.5em);
+    padding-left: 0;
+}
+.user{
+    padding: 20px 0px 10px 0px;
+}
+.giorni{
+    color: white;
+    background-color: rgb(45, 45, 233);
+    padding: 10px;
+    margin: 30px 0px;
+    text-align: center;
+}
+#big{
+    margin-left: var(--fa-li-margin, 1.2em); 
+}
+.fa-ul>li {
+    position: relative;
+    margin: 25px 0;
+}
+.spazio{
+    padding: 30px 0;
+}
+.punti{
+    padding-top: 65px;
+}
+.fianco{
+    display: inline;
+    border-bottom: 1px solid silver;
+}
+.fa-check{
+    color: rgb(47, 47, 248);
+}
+.gray{
+    color: rgb(95, 95, 95);
+}
+.rettangolo{
+    border: 1px solid silver;
+    height: 250px;
+}
+.team{
+    text-align: center;
+    padding: 10px 0;
+}
+.padding-25{
+    padding: 25px;
+}
+.flex-b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mar-00{
+    margin: 0;
+    padding: 10px 30px;
+}
+.pad-bot{
+    padding: 15px 0px 30px 0px;
+}
+.mar-ri{
+    margin-right: 35%;
 }
 /*square-3*/
 .white-3{
-    background-color: orangered;
-    height: 400px;
-    display: flex;
-    align-items: center;
+    height: 550px;
 }
 .square-contatto{
-    background-color: yellow;
     width: 60%;
-    height: 300px;
+    height: 510px;
+}
+.padding-25-0{
+    padding: 25px 0;
+}
+.partner{
+    width: 100%;
+    height: 100%
 }
 .square-dropbox{
-    background-color: brown;
     width: 40%;
-    height: 300px;
+    height: 510px;
+}
+.border{
+    width: 41%;
+    padding: 10px;
+    border: 1px solid silver;
 }
 /*square-4*/
 .white-4{
