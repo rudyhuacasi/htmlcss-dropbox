@@ -311,7 +311,7 @@
 }
 .gratuita{
     background-color:  rgb(112, 171, 247);
-    height: 300px;
+    height: 250px;
     display: flex;
     align-items: center;
 }
@@ -333,31 +333,47 @@
 
 /*square-6*/
 .white-6{
-    height: 400px;
+    height: 600px;
     display: flex;
     align-items: center;
 }
 .square-domande{
-    border: 1px solid black;
     width: 100%;
-    height: 300px;
+}
+.mar-b{
+    margin-bottom: 40px;
+}
+.row-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.fa-chevron-down{
+    margin: 35px;
+}
+.bord-t-b{
+    border-top: 1px solid rgb(163, 163, 163);
+    border-bottom: 1px solid rgb(163, 163, 163);
 }
 /*footer*/
 footer{
     background-color: black;
-    height: 400px;
+    height: 600px;
     display: flex;
     align-items: center;
 }
 .square-prodotti{
-    background-color: green;
     width: calc(100%/5);
-    height: 250px; 
-    border: 1px solid black;
+    height: 350px; 
+    color: white;
+}
+.mar-30{
+    margin: 30px 0;
 }
 .square-italiano{
-    background-color: darkolivegreen;
-    width: 100%;
+    width: 10%;
     height: 40px;
-   
+    color: silver;
+    border-top: 1px solid silver;
+    padding: 40px 0;
 }
